@@ -1,6 +1,6 @@
-# Source code for paper "SubZero: Random Subspace Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning"
+# Source code for paper "Zeroth-Order Fine-Tuning of LLMs in Random Subspaces"
 
-This is the implementation for the paper [SubZero: Random Subspace Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning](http://arxiv.org/abs/2410.08989). 
+This is the implementation for the paper [Zeroth-Order Fine-Tuning of LLMs in Random Subspaces](http://arxiv.org/abs/2410.08989). 
 
 In this paper, we propose the random Subspace Zeroth-order (SubZero) optimization to address the challenges posed by LLMs’ high dimensionality. We introduce a low-rank perturbation tailored for LLMs that significantly reduces memory consumption while improving training performance. Additionally, we have successfully applied SubZero to four popular fine-tuning schemes for LLMs, including full parameter tuning, LoRA, prefix tuning, and prompt tuning. This demonstrates SubZero's compatibility and versatility across different tuning approaches. 
 
